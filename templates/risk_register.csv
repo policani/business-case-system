@@ -1,0 +1,3 @@
+risk,likelihood,impact,severity,mitigation,residual_risk,owner
+Data quality prevents reliable dispatch optimization,Medium,High,High,Profile work order and parts data before configuration,Medium,Operations systems owner
+Field adoption resistance reduces benefit capture,Medium,Medium,Medium,Pilot with three service territories and train supervisors first,Medium,Field operations lead

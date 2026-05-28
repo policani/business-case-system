@@ -1,0 +1,7 @@
+item,value,basis
+Technicians,120,Planning assumption
+Lost productive hours per technician per month,6.5,Directional operations estimate
+Loaded labor rate,$82/hour,Planning assumption
+Annual hard benefit,$1.25M,Labor recovery plus avoided reschedule premium
+One-time cost,$620K,Program estimate
+Annual recurring cost,$180K,"Licensing, support, and governance"
