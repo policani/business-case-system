@@ -6,6 +6,27 @@ Business Case System helps users interview an idea, challenge weak or solution-f
 
 It is not a substitute for business judgment, sponsor accountability, financial scrutiny, or governance discipline. It is a structured operating workflow for applying those disciplines before a business case reaches an executive sponsor, CFO, approval body, or governance forum.
 
+## Status
+
+Public portfolio prototype. Designed for ChatGPT Project use, executive review, and workflow demonstration. Not a SaaS product, autonomous investment engine, or substitute for sponsor, finance, and governance approval.
+
+## How to evaluate this repo
+
+Open these first:
+
+- [`chatgpt-project/`](chatgpt-project/) for the flat ChatGPT runtime.
+- [`examples/sample-data/`](examples/sample-data/) for the fictional input scenario.
+- [`examples/sample-outputs/`](examples/sample-outputs/) for Markdown, HTML, DOCX, and quality-review outputs.
+- [`quality-review/`](quality-review/) for package review notes.
+
+Evaluate the repo on whether it strengthens weak problem framing, separates symptoms from root causes, includes a real Do Nothing option, exposes assumptions, and keeps final approval human-owned.
+
+## Before and after example
+
+Before: a sponsor or team has a rough idea, scattered notes, and a preferred solution, but the root cause, options, financial assumptions, risks, and decision audience are not yet clear.
+
+After: the idea becomes a decision-ready business case with problem framing, current-state evidence, options analysis, recommended path, financial assumptions, risks, dependencies, implementation approach, and explicit review limits.
+
 ## Who this is for
 
 - Business owners shaping an investment request
