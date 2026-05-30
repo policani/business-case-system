@@ -1,0 +1,6 @@
+category,item,one_time_cost,annual_recurring_cost,annual_hard_benefit,assumption
+Implementation,Project labor,250000,0,0,Estimate based on internal/external delivery roles
+Technology,Licensing and integration,180000,150000,0,Vendor estimate or planning assumption
+Training,Training and adoption,90000,30000,0,Role-based training and support
+Benefit,Labor efficiency,0,0,900000,Hours recovered converted using loaded labor rate
+Benefit,Schedule reliability,0,0,350000,Avoided reschedules and emergency dispatch premium

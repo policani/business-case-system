@@ -1,0 +1,4 @@
+risk,likelihood,impact,owner
+Work order and inventory data quality gaps,Medium,High,IT operations owner
+Dispatch supervisors bypass readiness gate,Medium,Medium,Field operations director
+Vendor integration estimate is understated,Medium,High,Technology lead

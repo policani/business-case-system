@@ -1,0 +1,210 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Field Service Dispatch Business Case</title><style>
+    body { font-family: Aptos, Segoe UI, Arial, sans-serif; max-width: 980px; margin: 40px auto; line-height: 1.45; color: #1f2937; }
+    h1 { color: #0f172a; border-bottom: 3px solid #2563eb; padding-bottom: 8px; }
+    h2 { color: #1e3a8a; border-bottom: 1px solid #dbeafe; padding-bottom: 4px; margin-top: 30px; }
+    h3 { color: #111827; margin-top: 22px; }
+    table { border-collapse: collapse; width: 100%; margin: 14px 0 22px; font-size: 0.92rem; }
+    th, td { border: 1px solid #cbd5e1; padding: 8px 10px; vertical-align: top; }
+    th { background: #dbeafe; text-align: left; }
+    code, pre { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; }
+    pre { padding: 12px; overflow-x: auto; }
+    .meta { color: #64748b; font-size: 0.9rem; }
+    </style></head><body><h1>Business Case: Field Service Dispatch and Parts Readiness Modernization</h1>
+<p><strong>Prepared for:</strong> COO and CFO</p>
+<p><strong>Prepared by:</strong> Business Operations PMO</p>
+<p><strong>Date:</strong> 2026-05-27</p>
+<p><strong>Version:</strong> Fictional sample</p>
+<p><strong>Classification:</strong> Public-safe synthetic example</p>
+<h2>Executive Summary</h2>
+<p>Field service productivity is being reduced by a readiness gap between dispatch scheduling, parts availability, and technician route planning. Based on the fictional planning data supplied for this sample, 120 technicians lose an estimated 6.5 productive hours per technician per month, while 18% of work orders require emergency rescheduling and 14% are delayed by parts-readiness failures.</p>
+<p>The recommended path is a phased dispatch and parts readiness modernization program. The program should begin with a 90-day readiness pilot across three service territories, then scale only after the organization validates the baseline, confirms integration complexity, and proves adoption by dispatch supervisors and field managers.</p>
+<p>The estimated investment is $620,000 in one-time cost plus $180,000 in annual recurring cost. The hard benefit model estimates $1.25 million in annual benefit from recovered technician productivity and avoided reschedule premium. Under the base case, payback is approximately 7 months after launch. This is a planning estimate, not a finance-validated forecast.</p>
+<p>The primary risk is that work-order, inventory, and scheduling data quality may be weaker than assumed. If the data cannot reliably support a readiness signal, the initiative would require additional process remediation before full rollout. The mitigation is to perform a four-week data and workflow validation before vendor configuration or enterprise rollout.</p>
+<p>The decision requested is approval from the COO and CFO by June 30, 2026 to fund Phase 1 and authorize the 90-day pilot. Delaying the decision past that date would push benefit realization into the next planning cycle and prolong the current productivity leakage.</p>
+<h2>1. Problem Statement and Business Need</h2>
+<h3>Observable Symptoms</h3>
+<p>Dispatch assignments are often made before parts readiness and travel sequencing are confirmed. The result is avoidable technician downtime, rescheduled visits, supervisor rework, and inconsistent customer commitments.</p>
+<h3>Root Cause Analysis</h3>
+<p>The working root-cause hypothesis is not simply that the current tools are inadequate. The deeper issue is that scheduling, inventory readiness, and route planning are governed as separate workflows. No single readiness signal exists before dispatch commitment.</p>
+<h3>Quantified Impact of Status Quo</h3>
+<table>
+<thead><tr><th>Metric</th><th>Current Value</th><th>Basis / Assumption</th></tr></thead>
+<tbody>
+<tr><td>Field technicians</td><td>120</td><td>Planning assumption</td></tr>
+<tr><td>Lost productive hours / technician / month</td><td>6.5</td><td>Directional operations estimate</td></tr>
+<tr><td>Loaded labor rate</td><td>$82/hour</td><td>Planning assumption</td></tr>
+<tr><td>Emergency reschedule rate</td><td>18%</td><td>Sample operations note</td></tr>
+<tr><td>Parts-not-ready delay rate</td><td>14%</td><td>Sample operations note</td></tr>
+</tbody></table>
+<h3>Scope Definition</h3>
+<p><strong>In scope:</strong> dispatch readiness signal, work-order readiness rules, supervisor workflow, parts-status visibility, three-territory pilot, rollout governance.</p>
+<p><strong>Out of scope:</strong> full ERP replacement, workforce reduction, fleet-routing replacement, customer billing redesign.</p>
+<h3>Urgency Drivers</h3>
+<p>The issue now affects productivity, customer promise reliability, and supervisor workload. If not addressed before the next annual operating cycle, the company will continue funding avoidable productivity leakage without a clear owner or control point.</p>
+<h2>2. Strategic Alignment</h2>
+<table>
+<thead><tr><th>Organizational Priority</th><th>Connection to This Initiative</th></tr></thead>
+<tbody>
+<tr><td>Improve field productivity</td><td>Reduces avoidable downtime and rescheduling caused by readiness gaps.</td></tr>
+<tr><td>Improve customer reliability</td><td>Reduces missed or rescheduled service commitments.</td></tr>
+<tr><td>Increase operating discipline</td><td>Creates a readiness gate before dispatch commitment.</td></tr>
+<tr><td>Improve technology-enabled operations</td><td>Uses systems integration to support an operational control point, not technology for its own sake.</td></tr>
+</tbody></table>
+<h2>3. Current State Assessment</h2>
+<h3>Baseline Performance Metrics</h3>
+<table>
+<thead><tr><th>Metric</th><th>Current Value</th><th>Target</th><th>Gap</th></tr></thead>
+<tbody>
+<tr><td>Productive hours lost / technician / month</td><td>6.5</td><td>2.0</td><td>4.5</td></tr>
+<tr><td>Emergency reschedule rate</td><td>18%</td><td>8%</td><td>10 points</td></tr>
+<tr><td>Parts-not-ready delay rate</td><td>14%</td><td>5%</td><td>9 points</td></tr>
+</tbody></table>
+<h3>Identified Gaps</h3>
+<ul>
+<li>Dispatch scheduling does not consistently validate parts readiness before commitment.</li>
+<li>Supervisors rely on side spreadsheets to reconcile readiness.</li>
+<li>Inventory status and scheduling decisions are not connected in a single operational signal.</li>
+<li>Current governance does not define who can override readiness rules or under what conditions.</li>
+</ul>
+<h3>Evidence Sources and Limitations</h3>
+<p>The sample uses fictional operations notes, a sample benefits/costs CSV, and a sample risk log. The values should be treated as planning assumptions until validated against actual work-order history, inventory data, dispatch logs, and finance-approved loaded labor rates.</p>
+<h2>4. Options Analysis</h2>
+<h3>Evaluation Criteria</h3>
+<table>
+<thead><tr><th>Criterion</th><th>Weight</th><th>Rationale</th></tr></thead>
+<tbody>
+<tr><td>Speed to value</td><td>High</td><td>Productivity leakage is already active.</td></tr>
+<tr><td>Financial return</td><td>High</td><td>CFO review requires a defensible payback case.</td></tr>
+<tr><td>Operational adoption</td><td>High</td><td>Benefits require dispatch and field manager behavior change.</td></tr>
+<tr><td>Integration risk</td><td>Medium</td><td>Systems integration can delay or dilute value.</td></tr>
+<tr><td>Reversibility</td><td>Medium</td><td>A pilot should allow correction before scale.</td></tr>
+</tbody></table>
+<h3>Comparative Scoring Matrix</h3>
+<table>
+<thead><tr><th>Option</th><th>Description</th><th>Score</th><th>Summary Finding</th></tr></thead>
+<tbody>
+<tr><td>Option 0: Do Nothing</td><td>Maintain disconnected scheduling and parts-readiness workflows</td><td>1.8 / 5</td><td>Avoids spend but preserves productivity leakage and rework.</td></tr>
+<tr><td>Option 1: Process-only readiness checklist</td><td>Add manual readiness discipline without systems integration</td><td>2.9 / 5</td><td>Lower cost but likely fragile and supervisor-dependent.</td></tr>
+<tr><td>Option 2: Phased readiness signal and dispatch workflow modernization</td><td>Pilot then scale integrated readiness signal and governance</td><td>4.3 / 5</td><td>Best risk-adjusted balance of return, adoption, and control.</td></tr>
+<tr><td>Option 3: Full field service platform replacement</td><td>Replace broader field service platform</td><td>3.1 / 5</td><td>May solve more problems but has higher cost, longer timeline, and greater disruption.</td></tr>
+</tbody></table>
+<h2>5. Recommended Solution</h2>
+<h3>Recommendation</h3>
+<p>Approve Option 2: a phased readiness signal and dispatch workflow modernization program.</p>
+<h3>Rationale</h3>
+<p>Option 2 addresses the root cause without forcing a full platform replacement. It creates a readiness gate, validates data quality, tests supervisor adoption, and allows the company to stop or redirect before enterprise rollout if assumptions fail.</p>
+<h3>Solution Description</h3>
+<p><strong>People:</strong> Dispatch supervisors, field managers, inventory coordinators, and IT operations owners will participate in readiness-rule design and pilot governance.</p>
+<p><strong>Process:</strong> Work orders must pass a parts-readiness and route-feasibility check before dispatch commitment, with defined override authority.</p>
+<p><strong>Technology:</strong> Existing scheduling and inventory systems will feed a readiness signal. The pilot should validate integration needs before broader automation.</p>
+<h3>Dependencies and Prerequisites</h3>
+<ul>
+<li>Work-order history and inventory status data must be accessible for baseline validation.</li>
+<li>Dispatch supervisors must participate in workflow design.</li>
+<li>IT must confirm integration feasibility before vendor configuration.</li>
+<li>Finance must validate loaded labor rate and benefit methodology.</li>
+</ul>
+<h2>6. Financial Analysis</h2>
+<h3>Investment Summary</h3>
+<table>
+<thead><tr><th>Category</th><th>One-Time Cost</th><th>Annual Recurring Cost</th><th>Notes / Assumptions</th></tr></thead>
+<tbody>
+<tr><td>Implementation labor</td><td>$250,000</td><td>$0</td><td>Internal and external project labor.</td></tr>
+<tr><td>Technology and integration</td><td>$180,000</td><td>$150,000</td><td>Licensing, integration, and support estimate.</td></tr>
+<tr><td>Training and adoption</td><td>$90,000</td><td>$30,000</td><td>Supervisor and technician enablement.</td></tr>
+<tr><td>Contingency</td><td>$100,000</td><td>$0</td><td>Planning contingency for integration uncertainty.</td></tr>
+<tr><td>**Total**</td><td>**$620,000**</td><td>**$180,000**</td><td>Fictional sample estimate.</td></tr>
+</tbody></table>
+<h3>Benefit Model</h3>
+<p><strong>Hard Benefits Included in ROI</strong></p>
+<table>
+<thead><tr><th>Benefit</th><th>Annual Value</th><th>Basis / Assumption</th></tr></thead>
+<tbody>
+<tr><td>Recovered technician productivity</td><td>$900,000</td><td>Reduced lost hours using loaded labor rate assumption.</td></tr>
+<tr><td>Avoided emergency reschedule premium</td><td>$350,000</td><td>Lower supervisor rework and avoidable emergency scheduling.</td></tr>
+<tr><td>**Total Hard Benefits**</td><td>**$1,250,000**</td><td>Planning estimate pending validation.</td></tr>
+</tbody></table>
+<p><strong>Soft Benefits Not Included in ROI</strong></p>
+<ul>
+<li>Improved customer promise reliability.</li>
+<li>Reduced supervisor frustration and manual reconciliation.</li>
+<li>Better operational visibility for field leadership.</li>
+</ul>
+<h3>Return Analysis</h3>
+<table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>Year 1 investment</td><td>$800,000</td></tr>
+<tr><td>Annual hard benefit</td><td>$1,250,000</td></tr>
+<tr><td>Approximate payback</td><td>7 months</td></tr>
+<tr><td>3-year net benefit before discounting</td><td>$2,770,000</td></tr>
+</tbody></table>
+<h3>Sensitivity Analysis</h3>
+<table>
+<thead><tr><th>Scenario</th><th>Variable</th><th>Impact</th></tr></thead>
+<tbody>
+<tr><td>Base case</td><td>$1.25M annual hard benefit</td><td>Payback approx. 7 months.</td></tr>
+<tr><td>Benefit underperformance</td><td>Benefits 25% lower</td><td>Payback extends to approx. 10 months.</td></tr>
+<tr><td>Implementation overrun</td><td>One-time cost 25% higher</td><td>Payback extends to approx. 9 months.</td></tr>
+<tr><td>Data remediation required</td><td>Pilot delayed by 90 days</td><td>Benefit realization moves one quarter later.</td></tr>
+</tbody></table>
+<h2>7. Risk Assessment</h2>
+<h3>Top Risks</h3>
+<p>The three material risks are data quality, field adoption, and integration complexity. Each can materially affect benefit timing and payback.</p>
+<table>
+<thead><tr><th>Risk</th><th>Likelihood</th><th>Impact</th><th>Severity</th><th>Mitigation</th><th>Residual Risk</th><th>Owner</th></tr></thead>
+<tbody>
+<tr><td>Work-order and inventory data quality cannot support readiness signal</td><td>Medium</td><td>High</td><td>High</td><td>Four-week data profile before configuration</td><td>Medium</td><td>IT operations owner</td></tr>
+<tr><td>Dispatch supervisors bypass readiness gate under pressure</td><td>Medium</td><td>Medium</td><td>Medium</td><td>Pilot with supervisor coaching and override tracking</td><td>Medium</td><td>Field operations director</td></tr>
+<tr><td>Integration estimate is understated</td><td>Medium</td><td>High</td><td>High</td><td>Confirm APIs and data refresh needs before vendor commitment</td><td>Medium</td><td>Technology lead</td></tr>
+<tr><td>Technicians do not trust new schedule commitments</td><td>Low</td><td>Medium</td><td>Low</td><td>Include technician feedback in pilot readout</td><td>Low</td><td>Field manager</td></tr>
+</tbody></table>
+<h2>8. Implementation Roadmap</h2>
+<table>
+<thead><tr><th>Phase</th><th>Timeline</th><th>Milestone</th><th>Key Deliverables</th></tr></thead>
+<tbody>
+<tr><td>Phase 1: Validate</td><td>Weeks 1-4</td><td>Baseline and data validation</td><td>Metrics baseline, integration inventory, readiness-rule draft</td></tr>
+<tr><td>Phase 2: Pilot</td><td>Weeks 5-12</td><td>Three-territory pilot</td><td>Readiness signal, supervisor workflow, adoption report</td></tr>
+<tr><td>Phase 3: Scale decision</td><td>Month 4</td><td>Go / no-go review</td><td>Pilot results, revised financial model, rollout plan</td></tr>
+<tr><td>Phase 4: Rollout</td><td>Months 5-8</td><td>Regional deployment</td><td>Training, reporting, governance cadence</td></tr>
+</tbody></table>
+<h3>90-Day Quick Wins</h3>
+<ul>
+<li>Establish baseline metrics for lost productive hours and reschedule causes.</li>
+<li>Create a readiness-rule prototype for three territories.</li>
+<li>Reduce manual supervisor reconciliation in pilot territories.</li>
+</ul>
+<h2>9. Governance and Decision Framework</h2>
+<table>
+<thead><tr><th>Decision Type</th><th>Accountable</th><th>Responsible</th><th>Consulted</th><th>Informed</th></tr></thead>
+<tbody>
+<tr><td>Phase 1 funding</td><td>COO / CFO</td><td>Program lead</td><td>Field Ops, IT, Finance</td><td>Regional managers</td></tr>
+<tr><td>Readiness rule approval</td><td>Field Ops Director</td><td>Dispatch lead</td><td>IT, inventory owner</td><td>Technicians</td></tr>
+<tr><td>Integration scope change</td><td>Technology lead</td><td>IT operations owner</td><td>Vendor, Program lead</td><td>COO / CFO</td></tr>
+<tr><td>Scale decision</td><td>COO / CFO</td><td>Program lead</td><td>Field Ops, IT, Finance</td><td>Executive team</td></tr>
+</tbody></table>
+<h3>Success Metrics</h3>
+<table>
+<thead><tr><th>Metric</th><th>Baseline</th><th>Target</th><th>Cadence</th><th>Owner</th></tr></thead>
+<tbody>
+<tr><td>Lost productive hours / technician / month</td><td>6.5</td><td>2.0</td><td>Monthly</td><td>Field operations director</td></tr>
+<tr><td>Emergency reschedule rate</td><td>18%</td><td>8%</td><td>Monthly</td><td>Dispatch lead</td></tr>
+<tr><td>Parts-not-ready delay rate</td><td>14%</td><td>5%</td><td>Monthly</td><td>Inventory operations owner</td></tr>
+</tbody></table>
+<h2>10. Recommendation and Call to Action</h2>
+<h3>Recommendation</h3>
+<p>Approve a phased readiness signal and dispatch workflow modernization program beginning with a 90-day pilot.</p>
+<h3>Decision Requested</h3>
+<p>We request approval from the COO and CFO by June 30, 2026 to authorize Phase 1 and fund the pilot at a total initial investment of $620,000 one-time plus $180,000 annual recurring cost.</p>
+<h3>Consequence of Delay</h3>
+<p>Delaying approval past June 30, 2026 would push benefit realization into the next planning cycle and preserve the current productivity leakage for at least one additional quarter.</p>
+<h3>Next Steps</h3>
+<table>
+<thead><tr><th>Action</th><th>Owner</th><th>Timing</th></tr></thead>
+<tbody>
+<tr><td>Validate baseline metrics</td><td>Program lead and Finance partner</td><td>Within 10 business days of approval</td></tr>
+<tr><td>Confirm integration feasibility</td><td>Technology lead</td><td>Within 20 business days of approval</td></tr>
+<tr><td>Launch three-territory pilot</td><td>Field operations director</td><td>Within 45 business days of approval</td></tr>
+</tbody></table>
+<h2>Drafting Notes</h2>
+<p>This is a synthetic sample. All numbers are fictional and should not be treated as benchmarks. The strongest sections are problem framing, options discipline, and risk clarity. The weakest areas before real use would be finance validation, actual system integration evidence, and confirmed stakeholder support.</p></body></html>

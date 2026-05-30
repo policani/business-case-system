@@ -1,0 +1,24 @@
+{
+  "initiative_name": "Field Service Dispatch and Parts Readiness Modernization",
+  "prepared_for": "COO and CFO",
+  "prepared_by": "Business Operations PMO",
+  "version": "Fictional sample",
+  "classification": "Public-safe synthetic example",
+  "problem": "Dispatch assignments are often made before parts readiness and travel sequencing are confirmed, reducing technician productivity and increasing reschedules.",
+  "root_cause": "Work-order scheduling, parts readiness, and route planning are managed in disconnected workflows without a single readiness signal before dispatch commitment.",
+  "metrics": {
+    "technicians": 120,
+    "lost_hours_per_tech_month": 6.5,
+    "loaded_rate": 82,
+    "reschedule_rate": "18%",
+    "parts_delay_rate": "14%"
+  },
+  "financials": {
+    "one_time_cost": 620000,
+    "annual_recurring_cost": 180000,
+    "annual_hard_benefit": 1250000,
+    "payback_months": 7.0
+  },
+  "audience": "COO and CFO, with field operations and IT leadership as secondary reviewers",
+  "decision": "Approve a phased modernization program beginning with a 90-day readiness pilot."
+}
