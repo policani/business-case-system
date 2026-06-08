@@ -18,6 +18,9 @@ Technicians lose productive time because dispatch assignments are made before pa
 - Proposed program investment: $620,000 one-time and $180,000 recurring annually
 - Estimated hard benefit: $1.25M annually
 - Expected payback: under 12 months
+- Cost of doing nothing: continued technician idle time, emergency reschedules, parts-related delay, customer frustration, and dispatch supervisor rework
+- Benefit classes to test: hard financial, cost avoidance, cycle time, quality/rework, customer experience, and strategic option value
+- Finance-validation status: pending; loaded labor-rate method and benefit capture method need CFO or finance owner confirmation
 
 ## Audience
 

@@ -21,6 +21,11 @@ Open these first:
 
 Evaluate the repo on whether it strengthens weak problem framing, separates symptoms from root causes, includes a real Do Nothing option, exposes assumptions, and keeps final approval human-owned.
 
+For local maintenance, compare value language against
+[`../roi-business-value-anti-patterns.md`](../roi-business-value-anti-patterns.md)
+so false precision, unsupported savings, proxy confusion, and completion-as-value
+do not creep into examples.
+
 ## Before and after example
 
 Before: a sponsor or team has a rough idea, scattered notes, and a preferred solution, but the root cause, options, financial assumptions, risks, and decision audience are not yet clear.

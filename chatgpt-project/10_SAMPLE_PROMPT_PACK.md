@@ -16,6 +16,10 @@ Use the notes, CSVs, and project plan I uploaded to build a business case. Separ
 
 Review this draft as a skeptical CFO. Focus on cost completeness, hard vs. soft benefits, ROI assumptions, sensitivity, opportunity cost, and what would need to be validated before approval.
 
+## 4A. Run the regular initiative value gate
+
+Classify each benefit claim as hard financial, cost avoidance, revenue protection, mission value, risk reduction, quality/rework, cycle time, customer/employee experience, compliance/control, or strategic option value. Identify baseline availability, assumptions, confidence, finance-validation status, cost of doing nothing, and whether the claim is allowed in an ROI headline. Keep soft or proxy benefits out of ROI language.
+
 ## 5. Export final
 
 Produce the final business case in Markdown, then provide an HTML-ready version and DOCX-ready version with clean headings and tables.

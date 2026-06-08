@@ -28,6 +28,12 @@ Baseline metrics, gaps, evidence sources, and limitations.
 
 Evaluation criteria, Option 0 Do Nothing, alternatives, scoring matrix.
 
+### Option 0: Do Nothing / Delay
+
+Describe the cost of doing nothing using evidence, ranges, or qualitative
+consequence where precise measurement is not available. Do not invent hard
+financial impact.
+
 ## 5. Recommended Solution
 
 Recommendation, rationale, people/process/technology description, dependencies, organizational impact.
@@ -35,6 +41,24 @@ Recommendation, rationale, people/process/technology description, dependencies, 
 ## 6. Financial Analysis
 
 Investment summary, hard benefits, soft benefits, return analysis, assumptions, sensitivity.
+
+### Value Gate
+
+| Benefit claim | Benefit class | ROI eligible? | Baseline available? | Cost of doing nothing | Assumptions | Confidence | Finance-validation status |
+|---|---|---|---|---|---|---|---|
+|  | Hard financial / Cost avoidance / Revenue protection / Mission value / Risk reduction / Quality-rework / Cycle time / Customer-employee experience / Compliance-control / Strategic option value | Yes / No / Not yet | Yes / No / Proxy |  |  | High / Medium / Low | Validated / Pending / Not required / Not finance-ready |
+
+Only hard financial benefits with validated method, source, assumptions, and
+owner should appear in ROI headlines. Keep soft, proxy, mission, risk,
+experience, and strategic-option benefits visible but separate.
+
+### Measurement Contract For Material Benefits
+
+| Expected outcome | Benefit type | Metric | Baseline | Target | Actual, if available | Measurement period | Source | Measure owner | Review cadence | Validation need | Confidence | Realization risk | Finance-sensitive flag | Downstream route |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |  |  |  |  | High / Medium / Low | High / Medium / Low | Yes / No | Value Ledger / Charter / Scoring / PMO Log / Executive Review |
+
+Keep soft, proxy, or finance-sensitive benefits out of official ROI language until the accountable human owner validates the method and result.
 
 ## 7. Risk Assessment
 
