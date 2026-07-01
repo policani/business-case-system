@@ -32,6 +32,27 @@ Before: a sponsor or team has a rough idea, scattered notes, and a preferred sol
 
 After: the idea becomes a decision-ready business case with problem framing, current-state evidence, options analysis, recommended path, financial assumptions, risks, dependencies, implementation approach, and explicit review limits.
 
+## July 2026 positioning update
+
+Customer-language research reinforced that this product should not be positioned
+as a template generator. The sharper problem is weak investment logic: teams ask
+for approval before they can show what problem is being solved, what happens if
+nothing changes, which options were considered, who validates the assumptions,
+and whether claimed value can survive finance or sponsor review.
+
+Lead with:
+
+- challenged problem framing;
+- a real Do Nothing option;
+- hard/soft benefit separation;
+- assumption confidence and validation need;
+- owner, source, baseline, metric, and review cadence for value claims;
+- explicit limits on what the business case proves.
+
+The capability to keep strengthening is readiness scoring: a user should be able
+to see whether a case is ready for sponsor review, finance review, chartering,
+scoring, value tracking, or more evidence gathering.
+
 ## Who this is for
 
 - Business owners shaping an investment request
